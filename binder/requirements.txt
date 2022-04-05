@@ -3,3 +3,7 @@ webdriverdownloader
 selenium == 4.1.0
 
 pandas
+
+openpyxl
+
+xlsxwriter
