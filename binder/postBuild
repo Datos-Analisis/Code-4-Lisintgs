@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Import the workspace into JupyterLab
+jupyter lab workspaces import binder/workspace.json
+
+#!/usr/bin/env python3
+
+from webdriverdownloader import GeckoDriverDownloader
+gdd = GeckoDriverDownloader()
+gdd.download_and_install("v0.23.0")
