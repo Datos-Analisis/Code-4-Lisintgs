@@ -3,11 +3,3 @@
 from webdriverdownloader import GeckoDriverDownloader
 gdd = GeckoDriverDownloader()
 gdd.download_and_install("v0.23.0")
-
-exit()
-
-RUN pip install -U selenium==4.1.0
-RUN wget https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-linux64.tar.gz
-RUN tar -x geckodriver -zf geckodriver-v0.30.0-linux64.tar.gz -O > bin/geckodriver
-RUN rm geckodriver-v0.30.0-linux64.tar.gz
-
