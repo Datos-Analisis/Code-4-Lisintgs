@@ -6,8 +6,8 @@ gdd.download_and_install("v0.23.0")
 
 exit()
 
-pip install -U selenium==4.1.0
-wget https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-linux64.tar.gz
-tar -x geckodriver -zf geckodriver-v0.30.0-linux64.tar.gz -O > bin/geckodriver
-rm geckodriver-v0.30.0-linux64.tar.gz
+!pip install -U selenium==4.1.0
+!wget https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-linux64.tar.gz
+!tar -x geckodriver -zf geckodriver-v0.30.0-linux64.tar.gz -O > bin/geckodriver
+!rm geckodriver-v0.30.0-linux64.tar.gz
 
