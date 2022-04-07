@@ -7,3 +7,7 @@ pandas
 openpyxl
 
 xlsxwriter
+
+pydrive
+
+pydrive2
